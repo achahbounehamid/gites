@@ -3,9 +3,99 @@
     margin: 0;
     padding: 0;
 }
-#mymenu{
-    float: right;
-    align-items: center;
-    text-align: none
-    ;
+.row-limit-size{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+} 
+#header{
+    overflow: auto;
+    
 }
+
+#logo{
+    float: left;
+}
+#burger{
+    float: right;
+    margin: -6px;
+    padding-left: 8.4rem;
+    
+    
+   
+    
+}
+
+#main-menu{
+    float: right;
+    margin: 20px;
+    
+
+ }
+
+ #main-menu.active{
+    display: block;
+
+  }
+  #firstsection {
+    background-image: url("../imgs/gites1jpg.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+#paragraphe{
+   
+
+}
+
+
+@media screen and (max-width: 344px){
+
+    
+#main-menu{
+        display:none;
+        position:absolute;
+        width: 100%;
+        
+        
+    }
+    #main-menu > ul{
+         flex-direction: column;
+         padding: 50px 0;
+         align-items: center; 
+    }
+    #burger{
+      
+        float: right;
+        margin: 0.625px 0.625px 0 0;
+        cursor: pointer;
+        
+    }
+      
+    }
+
+    #main-menu >ul {
+        display: flex;
+       }
+       #main-menu >ul>li {
+           list-style-type: none;
+       }
+
+    
+    
+    
+
+    @media screen and (max-width: 400px) {
+
+        #main-menu>ul>li>a{
+        
+            padding: 0 5px;
+
+
+
+    }
+
+}
+
