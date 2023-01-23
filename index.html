@@ -1,122 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./imgs/icon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./imgs/icon.png" />
     <title>Gites Marhaba</title>
-</head>
-
-  <header id="header">
-        <nav id="main-menu">
-            <div class="logo">
-                <img src="./imgs/logo.png" alt="logo" height="60px">
-                <span> Gites Marhaba </span>
-            </div>
-            <div id="burger">
-                <img  src="./imgs/burger.png" alt="burger">
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img src="./imgs/logo.png" alt="logo" height="60px" />
+        <span> Gites Marhaba </span>
+      </div>
+      <nav id="main-menu">
+        <div id="croix">
+          <img src="./imgs/Croix.png" alt="croic" height="30px" />
         </div>
-            
-            <ul class="menu">
-                <li ><a href="#">Accueil</a></li>
-                <li ><a href="#">Le domaine</a></li>
-                <li ><a href="#">Actualité</a></li>
-                <li ><button class="btn">Réserver</button> </a></li>
-            </ul>
-            
 
-        </nav>
-        <div id="croix">   
-            <img  src="./imgs/Croix.png" alt="croic" height="30px">
+        <ul class="menu">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Le domaine</a></li>
+          <li><a href="#">Actualité</a></li>
+          <li><a href="#">Réserver </a></li>
+        </ul>
+      </nav>
+      <div id="burger">
+        <img src="./imgs/burger.png" alt="burger" />
+      </div>
+    </header>
+
+    <div id="first-section">
+      <section>
+        <figure class="image1">
+          <img src="./imgs/gites1jpg.jpg" alt="gite" />
+        </figure>
+        <p class="paragraphe1">
+          Nos belles chambres lumineuses sont à votre disposition, dont l’une au
+          red-de–chaussée accessible aux handicapés. Elles donnent toutes sur un
+          beau parc ou sur la rivière. Vous pourrez disposer d’un salon avec une
+          cheminée et d’un billard.
+        </p>
+      </section>
+    </div>
+    <div id="second-section">
+      <figure>
+        <img
+          src="./imgs/salle-de-bain.png"
+          alt="salle-de-bail"
+          height="150px"
+        />
+      </figure>
+      <figure>
+        <img src="./imgs/chamber.jpg" alt="chamber" height="150px" />
+      </figure>
+      <figure>
+        <img src="./imgs/cuisine.jpg" alt="cuisine" height="150px" />
+      </figure>
+    </div>
+    <div id="three-section">
+      <article>
+        <img src="./imgs/PETIT_DEJ.png" alt="croissant" height="60px" /><br />
+        <p>un petit déjenuer entièrement fait maison est servi tous les matins
+          ave les produits locaux..</p>
+        
+      </article>
+      <article>
+        <img src="./imgs/TABLE.png" alt="table" height="60px" /><br />
+        <p>une plancha vous est également proposée le soir avec des spécialités
+          locales suivant la saison.</p>
+        >
+      </article>
+      <article>
+        <img src="./imgs/WIFI.png" alt="wfi" height="60px" /><br />
+        <p>Le WIFI gratuit </p>
+      </article>
+      <article>
+        <img
+          src="./imgs/BIBLIO.png"
+          alt="biblio"
+          height="60px"
+        /><br />bibliothèque
+      </article>
+      <article>
+        <img src="./imgs/JARDIN.png" alt="jardin" height="60px" /><br /><p>accès au
+        parc déun hecter</p>
+      </article>
+      <article>
+        <img src="./imgs/BAD.png" alt="sport" height="60px" /><br/><p>activité et
+        loisirs</p>
+      </article>
+         <div id="four-section">
+            <p>des offres bien-être</p>
+            <figure id="massage">
+                <img src="./imgs/massages.jpg" alt="massage" height="140px" />
+            </figure>
+                 <h1>contact</h1>
+                    <p class="adress">
+                             47 rue des Couronnes 75020 Paris, France info@gitesdelatour.com 01 23
+                            45 67 89
+                             </p>
+            <figure id="map">
+                        <img src="./imgs/map.png" alt="map" height="120px" />
+            </figure>
         </div>
-   </header>
-    <body>
-        <div id="first-section">
-            <section >
-                <figure class="image1">
-                    <img src="./imgs/gites1jpg.jpg" alt="gite" >
-                </figure>
-                <p class="paragraphe1">NOS belles chambres lumineuses sont à votre disposition, dont l’une au red-de–chaussée accessible aux handicapés. Elles donnent toutes sur un beau parc ou sur la rivière. Vous pourrez disposer d’un salon avec une cheminée et d’un billard. </p>
-                 </section>
+      <div id="formulaire">
+        <span>Nom*</span>
+        <label for="Nom"></label><br>
+        <input type="text" id="Nom" /><br />
+        <span>Prénom*</span><br>
+        <label for="prénom"></label>
+        <input type="text" id="prénom" /><br />
+        <span>E-mail*</span><br>
+        <label for="mail"></label>
+        <input type="text" id="e-mail" /><br />
+        <spam>Laisser nous un message*</spam><br>
+        <label for="message"></label>
+        <input type="text" id="message" /><br>
+        <button type="submit" id="button">Envoyer</button>
+      </div>
+      <footer>
+        <div id="réseaux-sociaux">
+          <figure>
+            <img src="./imgs/facebook.png" alt="fb" height="30px" />
+            <img src="./imgs/instagram.png" alt="instagrame" height="30px" />
+            <img src="./imgs/twitter.png" alt="twitter" height="30px" />
+          </figure>
         </div>
-            <div id="second-section">
-                <figure>
-                        <img src="./imgs/salle-de-bain.png" alt="salle-de-bail" height="200px">
-                </figure>
-                <figure>
-                    <img src="./imgs/chamber.jpg" alt="chamber" height="200px">
-                </figure>
-                <figure>
-                    <img src="./imgs/cuisine.jpg" alt="cuisine" height="200px">
-                </figure>
-
-            </div>
-            <div id="three-section">
-                <article>
-                    <img src="./imgs/PETIT_DEJ.png" alt="croissant" height="60px"><br>
-                    <span>un petit déjenuer entièrement fait maison est servi tous les matins ave les produits locaux..</span>
-                </article>
-                <article>
-                    <img src="./imgs/TABLE.png" alt="table" height="60px"><br>
-                    <span>une plancha vous est également proposée le soir avec des spécialités locales suivant la saison.</span>
-                </article>
-                <article>
-                    <img src="./imgs/WIFI.png" alt="wfi" height="60px"><br>
-                    <samp>LE WIFI gratuit </samp>
-                </article>
-                <article>
-                    <img src="./imgs/BIBLIO.png" alt="biblio" height="60px"><br>bibliothèque
-                </article>
-                <article>
-                    <img src="./imgs/JARDIN.png" alt="jardin" height="60px"><br>accès au parc déun hecter
-                </article>
-                <article>
-                    <img src="./imgs/BAD.png" alt="sport" height="60px"><br>activité et loisirs
-                </article>
-                <div id="four-*section">
-                    <p>des offres bien-être</p>
-                    <figure>
-                        <img src="./imgs/massages.jpg" alt="massage" height="140px">
-                    </figure>
-                                <h1>contact</h1>
-                                <p class="adress">47 rue des Couronnes 75020 Paris, France
-                                    info@gitesdelatour.com
-                                    01 23 45 67 89</p>
-                                    <figure>
-                                        <img src="./imgs/map.png" alt="map" height="100px">
-                                    </figure>
-                </div>
-                <div id="formulaire">
-                    <span>Nom</span>
-                    <label for="nom"></label>
-<input type="text" id="nom"><br>
-                     <span>Prénom</span>
-                     <label for="prénom"></label>
-<input type="text" id="prénom"><br>
-                        <span>E-mail</span>
-<label for="mail"></label>
-<input type="text" id="e-mail"><br>
-                        <span>Laisser nous un message</span>
-                        <label for="message"></label>
-<input type="text" id="message">
-<button type="submit"  >Envoyer</button>
-
-                </div>
-                <footer>
-                    <div id="réseaux-sociaux">
-                        <figure>
-                            <img src="./imgs/facebook.png" alt="fb" height="30px">
-                            <img src="./imgs/instagram.png" alt="instagrame" height="30px">
-                            <img src="./imgs/twitter.png" alt="twitter"height="30px">
-                        </figure>
-
-                    </div>
-                </footer>
-
-
-            </div>
-        <script src="./main.js"></script>
-    </body>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
