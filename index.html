@@ -37,19 +37,19 @@
     <div id="first-section">
                   <!--image-Gites-->
       
-      <h1>Notre gîtes vous attendent<br>pour des vacances où chacun trouvera son coin de 
+      <h1>Nos gîtes vous attendent<br>pour des vacances où chacun trouvera son coin de 
           paradis</h1>
     </div>    
         <p class="paragraphe1">
           Nos belles chambres lumineuses sont à votre disposition, dont l'une au
           red-de-chaussée accessible aux handicapés.Elles donnent toutes sur un
-          beau parc ou sur la rivière.<br> Vous pourrez disposer d'un salon avec une
-          cheminée et d'un billard.
+          beau parc ou sur la rivière.Vous pourrez disposer d'un salon avec une
+          cheminée un billard.
         </p>
      
     
     <div id="second-section">
-          <div>
+          <div class="image-gites">
             <figure >
                 <img 
                 src= "./imgs/salle-de-bain.png"
@@ -57,12 +57,12 @@
             </figure>
           </div>
           <div>
-              <figure >
+              <figure  class="image-gites">
                   <img src="./imgs/chamber.jpg" alt="chamber"     height="170px" />
                 </figure>
     </div>
     <div>
-          <figure class="imag2">
+          <figure class="image-gites">
             <img src="./imgs/cuisine.jpg" alt="cuisine" height="170px" />
           </figure>
       </div>
@@ -74,14 +74,14 @@
               <figure>
                 <img src="./imgs/PETIT_DEJ.png" alt="croissant" height="150px" />
               </figure>    
-                    <p2>un petit déjenuer fait maison<br>est servi tous les matins.</p2>
+                    <p2>Un petit déjenuer fait maison<br>est servi tous les matins.</p2>
                 
         </div>  
             <div class="table">
                 <figure>
                     <img src="./imgs/TABLE.png" alt="table" height="150px" /><br />
                   </figure>
-                        <p>une plancha a vous est également <br>proposée le soir.</p>
+                        <p>Une plancha vous est également <br>proposée le soir.</p>
             </div>
             <div class="wifi">
                   <figure>
@@ -94,67 +94,68 @@
                         <img
                             src="./imgs/BIBLIO.png" alt="biblio"height="150px"/>
                   </figure>
-                          <p> bibliothèque.</p>
+                          <p> Bibliothèque.</p>
                 </div> 
               <div class="jardin">
                       <figure>
                             <img src="./imgs/JARDIN.png" alt="jardin" height="150px" /><br />
                       </figure>
-                      <p>accès au parc déun hecter.</p>
+                      <p>Accès au parc d'un hectare.</p>
               </div>
                     <div class="sport">
                               <figure>
                                 <img src="./imgs/BAD.png" alt="sport" height="150px" />
                               </figure>
-                                    <p>activité et loisirs.</p>
+                                    <p>Activités et loisirs.</p>
                     </div>
       
     </div>
           
                        <h2>Des offres bien-être</h2>
           <div id="four-section">
+            <figure>
+              <img src="./imgs/yoga01.jpg" alt="yoga" height="300px">
+            </figure>
                
-            <figure class="image2">
-                  <img src="./imgs/massages.jpg" alt="massage">
-                </figure>
+                 <figure >
+              
+                  <img src="./imgs/massages.jpg" alt="massage" height="300px">
+                </figure>               
                 <figure>
-                  <img src="./imgs/yoga-2.png" alt="yoga">
-                </figure>
-                <figure>
-                  <img src="./imgs/souna.png" alt="souna">
+                  <img src="./imgs/souna.png" alt="souna" height="300px">
                 </figure>
           </div>                  
     <div id="groupe">   
-                    
-                  <div class="adress">    
-                            <h2>contact</h2>   
-                            <p >
-                               47 rue des Couronnes 75020 Paris,<br> France 
-                                info@gitesdelatour.com <br> 01 23
-                               45 67 89
-                             </p>
-                  </div>
+      <div id="formulaire">
+        <h3>Veuillez nous contacter en utilisant ce formulaire :</h3>
+            <span>Nom*</span>
+        <label for="Nom"></label><br>
+            <input type="text" id="Nom" /><br/>
+            <span>Prénom*</span><br>
+        <label for="prénom"></label>
+            <input type="text" id="prénom" /><br />
+            <span>E-mail*</span><br>
+        <label for="mail"></label>
+            <input type="text" id="e-mail" /><br />
+              <p3 >Laisser nous un message*</p3><br>
+        <label for="message"></label>
+            <input type="text" id="message" /><br>
+        <button type="submit" id="button">Envoyer</button>
+    </div>    
+                  
                   <div id="map">
                     <figure >
                       <img src="./imgs/map.png" alt="map" height="300px" />
                 </figure>
                   </div>
-                <div id="formulaire">
-                    <h3>Veuillez nous contacter en utilisant ce formulaire :</h3>
-                        <span>Nom*</span>
-                    <label for="Nom"></label><br>
-                        <input type="text" id="Nom" /><br/>
-                        <span>Prénom*</span><br>
-                    <label for="prénom"></label>
-                        <input type="text" id="prénom" /><br />
-                        <span>E-mail*</span><br>
-                    <label for="mail"></label>
-                        <input type="text" id="e-mail" /><br />
-                          <p3 >Laisser nous un message*</p3><br>
-                    <label for="message"></label>
-                        <input type="text" id="message" /><br>
-                    <button type="submit" id="button">Envoyer</button>
-                </div>    
+                  <div class="adress">    
+                    <h2>contact</h2>   
+                    <p >
+                       47 rue des Couronnes 75020 Paris,<br> France 
+                        info@gitesdelatour.com <br> 01 23
+                       45 67 89
+                     </p>
+          </div>
                         
                    
         </div> 
@@ -163,13 +164,15 @@
       
       <footer>
         <div id="réseaux-sociaux">
-          <figure>
-            <img src="./imgs/facebook.png" alt="fb" height="40px" />
-          </figure>
-            <img src="./imgs/instagram.png" alt="instagrame" height="40px" />
-          </figure>
-            <img src="./imgs/twitter.png" alt="twitter" height="40px" />
-          </figure>
+          
+              <img src="./imgs/facebook.png" alt="fb" height="40px" />
+          
+          
+              <img src="./imgs/instagram.png" alt="instagrame" height="40px" />
+          
+        
+              <img src="./imgs/twitter.png" alt="twitter" height="40px" />
+         
           
         </div>
       </footer>
