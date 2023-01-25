@@ -25,6 +25,7 @@
           <li><a href="#">Le domaine</a></li>
           <li><a href="#">Actualité</a></li>
           <li><a href="#">Réserver </a></li>
+          <li><a href="#">Se connecter</a></li>
         </ul>
       </nav>
       <div id="burger">
@@ -36,28 +37,35 @@
     <div id="first-section">
                   <!--image-Gites-->
       
-      <h1>Notre gîtes vous attendent<br>pour des vacances où chacun trouvera son coin de paradis</h1>
+      <h1>Notre gîtes vous attendent<br>pour des vacances où chacun trouvera son coin de 
+          paradis</h1>
     </div>    
         <p class="paragraphe1">
-          Nos belles chambres lumineuses sont à votre disposition, dont l’une au
-          red-de–chaussée accessible aux handicapés.<br>Elles donnent toutes sur un
-          beau parc ou sur la rivière. Vous pourrez disposer d’un salon avec une
-          cheminée et d’un billard.
+          Nos belles chambres lumineuses sont à votre disposition, dont l'une au
+          red-de-chaussée accessible aux handicapés.Elles donnent toutes sur un
+          beau parc ou sur la rivière.<br> Vous pourrez disposer d'un salon avec une
+          cheminée et d'un billard.
         </p>
      
     
     <div id="second-section">
-      <figure >
-        <img 
-          src= "./imgs/salle-de-bain.png"
-          alt="salle-de-bail" height="150px"/>  
-      </figure>
-      <figure >
-        <img src="./imgs/chamber.jpg" alt="chamber" height="150px" />
-      </figure>
-      <figure class="imag2">
-        <img src="./imgs/cuisine.jpg" alt="cuisine" height="150px" />
-      </figure>
+          <div>
+            <figure >
+                <img 
+                src= "./imgs/salle-de-bain.png"
+                alt="salle-de-bail" height="170px"/>  
+            </figure>
+          </div>
+          <div>
+              <figure >
+                  <img src="./imgs/chamber.jpg" alt="chamber"     height="170px" />
+                </figure>
+    </div>
+    <div>
+          <figure class="imag2">
+            <img src="./imgs/cuisine.jpg" alt="cuisine" height="170px" />
+          </figure>
+      </div>
     </div>
 
                   <h2>Nos services proposés</h2>
@@ -101,54 +109,72 @@
                                     <p>activité et loisirs.</p>
                     </div>
       
-     </div>
+    </div>
           
-                 <h2>Des offres bien-être</2>
+                       <h2>Des offres bien-être</h2>
           <div id="four-section">
-                  <!--image-massage-->
+               
+            <figure class="image2">
+                  <img src="./imgs/massages.jpg" alt="massage">
+                </figure>
+                <figure>
+                  <img src="./imgs/yoga-2.png" alt="yoga">
+                </figure>
+                <figure>
+                  <img src="./imgs/souna.png" alt="souna">
+                </figure>
           </div>                  
-                         
-                         
+    <div id="groupe">   
+                    
                   <div class="adress">    
                             <h2>contact</h2>   
-                    <p >
-                             47 rue des Couronnes 75020 Paris,<br> France info@gitesdelatour.com <br> 01 23
-                            45 67 89
+                            <p >
+                               47 rue des Couronnes 75020 Paris,<br> France 
+                                info@gitesdelatour.com <br> 01 23
+                               45 67 89
                              </p>
-                        <figure id="map">
-                              <img src="./imgs/map.png" alt="map" height="200px" />
-                        </figure>
                   </div>
+                  <div id="map">
+                    <figure >
+                      <img src="./imgs/map.png" alt="map" height="300px" />
+                </figure>
+                  </div>
+                <div id="formulaire">
+                    <h3>Veuillez nous contacter en utilisant ce formulaire :</h3>
+                        <span>Nom*</span>
+                    <label for="Nom"></label><br>
+                        <input type="text" id="Nom" /><br/>
+                        <span>Prénom*</span><br>
+                    <label for="prénom"></label>
+                        <input type="text" id="prénom" /><br />
+                        <span>E-mail*</span><br>
+                    <label for="mail"></label>
+                        <input type="text" id="e-mail" /><br />
+                          <p3 >Laisser nous un message*</p3><br>
+                    <label for="message"></label>
+                        <input type="text" id="message" /><br>
+                    <button type="submit" id="button">Envoyer</button>
+                </div>    
+                        
+                   
         </div> 
-                  <h3>Veuillez nous contacter en utilisant ce formulaire :</3>
-      <div id="formulaire">
-            <span>Nom*</span>
-        <label for="Nom"></label><br>
-        <input type="text" id="Nom" /><br />
-            <span>Prénom*</span><br>
-        <label for="prénom"></label>
-        <input type="text" id="prénom" /><br />
-            <span>E-mail*</span><br>
-        <label for="mail"></label>
-        <input type="text" id="e-mail" /><br />
-              <spam>Laisser nous un message*</spam><br>
-        <label for="message"></label>
-        <input type="text" id="message" /><br>
-        <button type="submit" id="button">Envoyer</button>
-      </div>
+                   
+                 
+      
       <footer>
         <div id="réseaux-sociaux">
           <figure>
-            <img src="./imgs/facebook.png" alt="fb" height="30px" />
+            <img src="./imgs/facebook.png" alt="fb" height="40px" />
           </figure>
-            <img src="./imgs/instagram.png" alt="instagrame" height="30px" />
+            <img src="./imgs/instagram.png" alt="instagrame" height="40px" />
           </figure>
-            <img src="./imgs/twitter.png" alt="twitter" height="30px" />
+            <img src="./imgs/twitter.png" alt="twitter" height="40px" />
           </figure>
           
         </div>
       </footer>
     </div>
+  </div>
     <script src="./main.js"></script>
   </body>
 </html>
